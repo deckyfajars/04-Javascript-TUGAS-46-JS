@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TUGAS 46</title>
+  </head>
+  <body>
+    <p>Click Untuk Merubah Warna</p>
+    <button onclick="cek()" type="button" name="button">Ubah Warna</button>
+    <script type="text/javascript">
+      function cek(){
+        var warna = prompt("Masukan Warna");
+        if (warna == "kuning"){
+          document.body.style.backgroundColor = "yellow";
+        } else {
+          if (warna == "hijau"){
+            document.body.style.backgroundColor = "green";
+          } else {
+            if (warna == "biru"){
+              document.body.style.backgroundColor = "blue";
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
